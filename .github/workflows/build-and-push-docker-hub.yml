@@ -32,9 +32,9 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: bsignbkc/express-sample-project:staging
+          tags: quynhanh1307/express-sample-project:staging
 
-
+ 
   pull-and-up:
     if: false
     name: Pull new image and re run with the new version
